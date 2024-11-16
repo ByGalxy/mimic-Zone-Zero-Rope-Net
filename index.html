@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>布网</title>
+    <link rel="shortcut icon" href="https://blog.klbbx.cn/usr/uploads/2024/03/1767556586.png">
+    <link rel="stylesheet" href="main/css/mdui.css">
+    <link rel="stylesheet" href="main/css/rope-net_main.css">
+    <script src="main/js/mdui.global.js"></script>
+    <script src="main/js/rope-net_main.js"></script>
+    <style>
+        body {
+          opacity: 0;
+        }
+      
+        body.ready {
+          opacity: 1;
+          transition: 0.25s opacity;
+        }
+      </style>
+      
+      <script type="module">
+        await Promise.allSettled([
+          customElements.whenDefined('mdui-button'),
+          customElements.whenDefined('mdui-card'),
+          customElements.whenDefined('mdui-checkbox')
+        ]);
+      
+        document.body.classList.add('ready');
+      </script>
+      
+    <style>
+        @font-face {
+            font-family: '印品鸿蒙体';
+            src: url('zh-cn.ttf') format('truetype'),
+                url('zh-cn.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        p {
+            font-family: '印品鸿蒙体';
+            font-weight: 1;
+        }
+
+        h3 {
+            font-family: '印品鸿蒙体';
+            font-weight: 1;
+        }
+
+        a {
+            font-family: '印品鸿蒙体';
+            font-weight: 1;
+        }
+    </style>
+    <style>
+        .image-container {
+            position: relative;
+            display: inline-block;
+
+        }
+
+        img.lazy-load {
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <mdui-navigation-drawer modal close-on-esc close-on-overlay-click class="bmnb520-example-drawer">
+            <div class="bmnb520-example-drawer__header">
+                <mdui-icon target="_blank" lazy="loaded">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAgCAMAAABXc8oyAAAAjVBMVEVHcEzX2dzZ2tzZ2t3a293f39/X19/Y2tzZ29zX39/X29vZ2d/Y2tvZ2dzY2NvY2dvY29vY29zZ293a293Z293X29/Y2tra29zZ297Y293Z290AAAC+wMEODg4bGxxSUlMbHByIiYp6e3zLzc++v8EpKSlsbm96fHw2Nzc2NzhERUWjpKVtbm83NzejpKblLvR9AAAAGnRSTlMAYN+/nxAg798gQDCgYFCQkM+Pz4BAcM+PkHdiPjQAAAD7SURBVHhehZNXbsMwEESpQjKKZDm2U1fNLb3c/3gBB4m02CXM9/0wixmCZsGuyo2nCL6smFZtIcXZLGmPdJG7/7grusytAXXKozadBzw8m/SohKh7xLtUxDkOXdeNwssRWHLv3AX2QlxjQeI8QzwI0QVxxb0DvG/hFfryCLEXYgbxgXkv8CaKXTZeNenViIAWvuKBrQGqyoceEXg1zqe6rMr8QHwjDtV/YkOMSUfishr8NARxlCMC67l5ROSrHBE8Eec9iMNJPB9wxOn3YXN1Gdwk/sCMzRN/YMblif88UwtTjpjOXBuJjTdyRuMa7d2bKDZrdp4tU1xz4RcnVmMIpVNZ0gAAAABJRU5ErkJggg==">
+                </mdui-icon>
+                <ul class="new_map_container">
+                    <li new-item position new-item--depth-1 no-children active>
+                        <div class="new-item__name">
+                            <div class="catalog-item__icon"></div>
+                            <a href="#">首页</a>
+                        </div>
+                        <div class="new-item__name">
+                            <div class="catalog-item__icon"></div>
+                            <a href="#" style="text-decoration: none;">绳网必看指南</a>
+                        </div>
+                        <div class="new-item__name">
+                            <div class="catalog-item__icon"></div>
+                            <a href="#" style="text-decoration: none;">关于</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </mdui-navigation-drawer>
+        <mdui-icon target="_blank" lazy="loaded" class="header__logo"><img src="logo.png"
+                class="header__logo"></mdui-icon>
+        <div class="header__logo465413">
+        </div>
+        <div class="header__title">
+            绝区零·绳网
+        </div>
+    </div>
+
+    <div class="swiper-wrapper bmnb520-ctainer box item container" style="padding: 80px 0px 0px 0px;">
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-shuping.php?t=1314">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar style="margin-top: -23px;margin-left: 12px;">
+                            <div class="loading-animation">
+                                <img style="width: 100%;
+                    display: flex;
+                    justify-content: center;" src="main/img/loading.gif" lazy="loaded">
+                            </div>
+                            <img class="lazy-load" style="width: 100%;height: 100%;"
+                                data-src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg" />
+                        </mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-shuping.php?t=1314">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar
+                            src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg"
+                            style="margin-top: -23px;margin-left: 12px;"></mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-shuping.php?t=1315">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar
+                            src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg"
+                            style="margin-top: -23px;margin-left: 12px;"></mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-shuping.php?t=1316">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar
+                            src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg"
+                            style="margin-top: -23px;margin-left: 12px;"></mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-shuping.php?t=1317">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar
+                            src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg"
+                            style="margin-top: -23px;margin-left: 12px;"></mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-shuping.php?t=1318">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar
+                            src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg"
+                            style="margin-top: -23px;margin-left: 12px;"></mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-shuping.php?t=1319">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar
+                            src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg"
+                            style="margin-top: -23px;margin-left: 12px;"></mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-shuping.php?t=1320">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar
+                            src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg"
+                            style="margin-top: -23px;margin-left: 12px;"></mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-shuping.php?t=1321">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar
+                            src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg"
+                            style="margin-top: -23px;margin-left: 12px;"></mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-shuping.php?t=1322">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar
+                            src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg"
+                            style="margin-top: -23px;margin-left: 12px;"></mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-henping.php?t=520">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar
+                            src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg"
+                            style="margin-top: -23px;margin-left: 12px;"></mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-henping.php?t=521">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar
+                            src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg"
+                            style="margin-top: -23px;margin-left: 12px;"></mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-henping.php?t=522">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar
+                            src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg"
+                            style="margin-top: -23px;margin-left: 12px;"></mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-henping.php?t=523">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar
+                            src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg"
+                            style="margin-top: -23px;margin-left: 12px;"></mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-henping.php?t=524">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar
+                            src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg"
+                            style="margin-top: -23px;margin-left: 12px;"></mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-henping.php?t=525">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar
+                            src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg"
+                            style="margin-top: -23px;margin-left: 12px;"></mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-henping.php?t=526">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar
+                            src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg"
+                            style="margin-top: -23px;margin-left: 12px;"></mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-henping.php?t=527">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar
+                            src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg"
+                            style="margin-top: -23px;margin-left: 12px;"></mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-henping.php?t=528">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar
+                            src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg"
+                            style="margin-top: -23px;margin-left: 12px;"></mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+        <mdui-card data-v-2a679fb5 title="闲聊" href="#" class="bmnb520-card bmnb520-card:hover lazy-load" clickable>
+            <div class="avatar-subscript agent-card">
+                <div class="image-container">
+                    <div class="agent-card__img loading-animation">
+                        <img style="width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 36px 0px 26px 60px;" src="main/img/loading.gif" lazy="loaded">
+                    </div>
+                    <img style="width: 100%;" class="lazy-load"
+                        data-src="https://blog.klbbx.cn/suiji2233/klbbxsuijiimg-yuanshen12-henping.php?t=529">
+                </div>
+                <div style="display: flex;flex-wrap: wrap;">
+                    <div class="image-container">
+                        <mdui-avatar
+                            src="https://upload-bbs.miyoushe.com/upload/2024/06/15/307458969/a31df1c24aacbdfd23304393c13f0cdb_3832793289485026770.jpg"
+                            style="margin-top: -23px;margin-left: 12px;"></mdui-avatar>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0px 0px 0px 4px;margin-top: -3px;">
+                        <div class="agent-card__name" style="color: #6c6c6e;font-size: 14px;padding: 0px 0px 3px 0px;">
+                            <p>布莫ByGalxy</p>
+                        </div>
+                        <div style="border: 0.01px solid #363636;width: 180px;">
+                        </div>
+                    </div>
+                    <div style="padding: 6px 4px 7px 11px;">
+                        <p style="color: #ffffff;font-size: 15px;">测试标题！</p>
+                        <p style="color: #d3d3d3;font-size: 14px;padding: 5px 0px 1px 1px;">测试描述~</p>
+                        <div data-v-5edb075d class="subscript-container"
+                            style="display: flex;flex-direction: row;margin-left: 6px;">
+                            <mdui-icon-visibility name="visibility" style="color: #ffffff"></mdui-icon-visibility>
+                            <p style="color: #ffffff;margin-top: 2px;margin-left: 6px;">999999999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mdui-card>
+
+    </div>
+    <mdui-list class="home__back-menu-m">
+        <mdui-collapse accordion>
+            <mdui-collapse-item>
+                <mdui-list-item class="bmnb520-item-ad478" slot="header">
+                    <p>菜单</p>
+                    <span class="el-input__suffix-inner"><i
+                            class="el-select__caret el-input__icon el-icon-arrow-up"></i><!----><!----><!----><!----><!----></span>
+                </mdui-list-item>
+                <div class="bm6416842">
+                    <mdui-list-item style="background-color: #4e4e4e;border-radius: 20px 20px 0px 0px;">
+                        <p>热门</p>
+                    </mdui-list-item>
+                    <mdui-list-item style="background-color: #4e4e4e;border-radius: 0px 0px 20px 20px;">
+                        <p>最新</p>
+                    </mdui-list-item>
+                </div>
+            </mdui-collapse-item>
+        </mdui-collapse>
+    </mdui-list>
+    <script>
+        const navigationDrawer = document.querySelector(".bmnb520-example-drawer");
+        const openButton = navigationDrawer.nextElementSibling;
+        const closeButton = navigationDrawer.querySelector("mdui-icon");
+
+        openButton.addEventListener("click", () => navigationDrawer.open = true);
+        closeButton.addEventListener("click", () => navigationDrawer.open = false);
+    </script>
+    <script>
+        window.addEventListener('load', function () {
+            const lazyImages = document.querySelectorAll('.lazy-load');
+            lazyImages.forEach(function (img) {
+                img.parentNode.querySelector('.loading-animation').style.display = 'flex';
+                img.addEventListener('load', function () {
+                    img.parentNode.querySelector('.loading-animation').style.display = 'none';
+                    img.style.display = 'block';
+                });
+
+                img.addEventListener('error', function () {
+                    img.parentNode.querySelector('.loading-animation').style.display = 'none';
+                    img.parentNode.innerHTML = '<img style="width: 100%;display: flex;justify - content: center;" src="main/img/Error.png" alt="Error">';
+                });
+
+                // 模拟延迟加载
+                setTimeout(function () {
+                    img.src = img.dataset.src;
+                }, 1000);
+            });
+        });
+    </script>
+</body>
+<html>
